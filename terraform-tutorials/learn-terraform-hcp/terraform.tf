@@ -1,12 +1,13 @@
 # terraform.tf
 terraform {
-  cloud {
-    organization = "hryssmz-trial"
+  # cloud {
+  #   # Uncomment this block if use locally
+  #   organization = "hryssmz-trial"
 
-    workspaces {
-      name = "learn-terraform"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform"
+  #   }
+  # }
 
   required_providers {
     aws = {
